@@ -102,7 +102,7 @@ hr {
 .speech-bubble {
   position: relative;
   padding: 10px;
-  background: rgba(21, 185, 206, 0.9);
+  background: rgba(224, 144, 14, 0.9);
   border-radius: 5px;
   &:after {
     content: '';
@@ -161,7 +161,7 @@ button {
 body {
   font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 1.4em;
-  background: #07ba81;
+  background: #f88800;
   color: #4d4d4d;
   min-width: 230px;
   max-width: 550px;
