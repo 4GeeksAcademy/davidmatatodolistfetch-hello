@@ -49,7 +49,7 @@ const Home = () => {
 
 	const getList = async () => {
 		const Response = await fetch(
-			"https://assets.breatheco.de/apis/fake/todos/user/davidcell97",
+			'https://playground.4geeks.com/todo/users/david97',
 			{
 				headers: {
 					"Content-Type": "application/json",
@@ -63,7 +63,7 @@ const Home = () => {
 
 	const updateList = async () => {
 		await fetch(
-			"https://assets.breatheco.de/apis/fake/todos/user/davidcell97",
+			" 'https://playground.4geeks.com/todo/users/david97'",
 			{
 				method: "PUT", // or 'POST'
 				body: JSON.stringify(addTodo), 
